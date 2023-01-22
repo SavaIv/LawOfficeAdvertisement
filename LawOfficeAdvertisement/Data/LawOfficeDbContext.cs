@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LawOfficeAdvertisement.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class LawOfficeDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public LawOfficeDbContext(DbContextOptions<LawOfficeDbContext> options)
             : base(options)
         {
         }
