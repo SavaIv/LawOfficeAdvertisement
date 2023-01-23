@@ -16,4 +16,6 @@ html {
 body {
     margin-bottom: 60px;
     padding-top: 120px;
+    background-image: url("../img/BGBLACK.png");
+    background-repeat: repeat;
 }
