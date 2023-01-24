@@ -15,11 +15,23 @@ html {
 
 body {
     margin-bottom: 60px;
-    padding-top: 120px;
+    padding-top: 150px;
     background-image: url("../img/BGBLACK.png");
     background-repeat: repeat;
+    
+}
+.container {
+    position: relative;
+    z-index: 100;
+    color: white;
 }
 
 .navbar {
     height: 100px;
 }
+
+/*h1 {
+    color: white;
+    z-index: 3;
+    position: relative;
+}*/
