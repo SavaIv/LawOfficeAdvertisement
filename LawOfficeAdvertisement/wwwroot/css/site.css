@@ -29,9 +29,12 @@ body {
 .navbar {
     height: 100px;
 }
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px; /* how far the icon is away from the page edge */
+    margin-right: 0px; /* how far the text beside it should be */
+    margin-top: 0px; /* if you want it vertically middle of the navbar. */
+}
 
-/*h1 {
-    color: white;
-    z-index: 3;
-    position: relative;
-}*/
+
