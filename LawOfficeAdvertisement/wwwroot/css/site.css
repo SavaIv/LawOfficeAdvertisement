@@ -19,3 +19,7 @@ body {
     background-image: url("../img/BGBLACK.png");
     background-repeat: repeat;
 }
+
+.navbar {
+    height: 100px;
+}
