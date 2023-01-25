@@ -34,3 +34,43 @@ body {
     margin-left: 10px; /* how far the icon is away from the page edge */
     margin-top: 0px; /* how far the text beside it should be */
 }
+
+.button {
+    display: inline-block;
+    padding: 20px 50px;
+    margin: 20px 0;
+    position: relative;
+    color: #ecf0f1;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* BUTTON 16 */
+
+#button-16 {
+    background-color: #34495e;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+}
+
+    #button-16:hover {
+        border-radius: 15px;
+        border: 1px solid black;
+    }
