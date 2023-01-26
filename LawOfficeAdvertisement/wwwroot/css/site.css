@@ -29,6 +29,10 @@ body {
     height: 100px;
 
 }
+.navbar-nav {
+    margin-left: 0px;  /* topbar number and email move*/
+}
+
 .logo {
    /* width: 100px;
     height: 100px;*/
