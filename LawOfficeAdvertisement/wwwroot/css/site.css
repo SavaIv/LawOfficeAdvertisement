@@ -68,7 +68,16 @@ a:active {
     text-decoration: none;
 }
 
+.footer {
+    background-color: #2b2b2b;
+    border-top-color: black;
+}
 
+#af {
+    padding: 1px;
+    border-top-color: black;
+    background: black;
+}
 
 /* BUTTON 16 */
 

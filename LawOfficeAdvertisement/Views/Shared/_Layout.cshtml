@@ -12,7 +12,6 @@
 </head>
 <body>
     <header class="fixed-top">
-
         <div class="top-bar navbar-expand-md navbar-dark" style="background-color: #2b2b2b;">
             <div class="container-fluid">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -28,7 +27,6 @@
                 </ul>
             </div>
         </div>
-
 
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark box-shadow bottom-border mb-3" style="background-color: #cf9e7f;">
             @*<img class="logo" src="~/img/LOGO.png"> *@
@@ -63,56 +61,19 @@
         </main>
     </div>
 
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start bg-black text-muted">
-        <div class="text-center p-4 border-bottom" style="background-color: rgba(0, 0, 0, 0.025);">
-            <a class="me-4 link-secondary text-dark" asp-area="" asp-controller="Home" asp-action="Index">Начало</a>
-            <a class="me-4 link-secondary text-dark" asp-area="" asp-controller="AboutUs" asp-action="ListOfAllActivities">Практика</a>
-            <a class="me-4 link-secondary text-dark" asp-area="" asp-controller="Blog" asp-action="Index">Блог</a>
-            <a class="me-4 link-secondary text-dark" asp-area="" asp-controller="Contact" asp-action="Contacts">Контакти</a>
-        </div>
-        <!-- Section: Social media -->
-        <!-- Section: Links  -->
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <!-- Grid row -->
+    <footer class="text-center text-lg-start text-muted" id="af">
+        <section>
+            <div class="container text-center text-md-start mt-5" style="color: #cd9e7d">
                 <div class="row mt-3">
-                    <!-- Grid column -->
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <!-- Content -->
                         <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fas fa-gem me-3 text-secondary"></i>Company name
+                            <i class="fas fa-gem me-3 text-secondary"></i>Logo
                         </h6>
                         <p>
-                            Here you can use rows and columns to organize your footer content. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit.
+                            Name-logo
                         </p>
                     </div>
-                    <!-- Grid column -->
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Products
-                        </h6>
-                        <p>
-                            <a href="#!" class="text-reset">Angular</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">React</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Vue</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Laravel</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-                    <!-- Grid column -->
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">
                             Useful links
                         </h6>
@@ -124,9 +85,6 @@
                         </p>
                         <p>
                             <a href="#!" class="text-reset">Orders</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Help</a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -140,27 +98,17 @@
                             info@example.com
                         </p>
                         <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-                        <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
                     </div>
-                    <!-- Grid column -->
                 </div>
-                <!-- Grid row -->
             </div>
         </section>
-        <!-- Section: Links  -->
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-            © 2021 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-    @*    <footer class="border-top footer text-muted">
-        <div class="container">
-        &copy; 2023 - LawOfficeAdvertisement - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+    <footer class="footer text-muted text-center">
+        <div class="container" style="color: #cd9e7d">
+            &copy; 2023 - LawOfficeAdvertisement
         </div>
-        </footer>*@
+    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
