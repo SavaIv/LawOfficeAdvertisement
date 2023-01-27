@@ -15,22 +15,22 @@
 
         <div class="top-bar navbar-expand-md navbar-dark" style="background-color: #2b2b2b;">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#"><i class="fa fa-fw fa-phone"></i> Phone number</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#"><i class="fa fa-fw fa-envelope"></i> Email address</a>
-                        </li>
-                    </ul>
-                    <partial name="_LoginPartial" />
-                </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><i class="fa fa-fw fa-phone"></i> Phone number</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><i class="fa fa-fw fa-envelope"></i> Email address</a>
+                    </li>
+                    <li class="nav-item ms-auto">
+                        <partial name="_LoginPartial" />
+                    </li>
+                </ul>
             </div>
         </div>
 
 
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark box-shado mb-3" style="background-color: #cf9e7f;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark box-shadow bottom-border mb-3" style="background-color: #cf9e7f;">
             @*<img class="logo" src="~/img/LOGO.png"> *@
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class=logo src="~/img/nameLOGO.png"></a>
