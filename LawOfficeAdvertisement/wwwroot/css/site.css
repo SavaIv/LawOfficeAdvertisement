@@ -88,25 +88,13 @@ a:active {
         border: 1px solid black;
     }
 
-
-/*textarea {
-    resize: none;
-    float: right;
-    margin-top: -300px;
-    box-shadow: none;*/
-    /*padding: 100px;*/
-    /*border: none;
-    overflow: auto;
-    outline: none;
-}*/
-
-.text_box {
+/*.text_box {*/
     /*background-color: orange;*/
     /*filter: opacity(0.3);*/
     /*opacity: 10%;*/
     /*    color: white;
     font-size: 20px;*/
-    padding: 10px;
+    /*padding: 10px;
     border: 1px black;
     margin: 50px;
     margin-top: -300px;
@@ -118,9 +106,29 @@ a:active {
     top: -247px;
     background: rgba(205, 158, 125, .2);
     font-size: 50px;
-}
+}*/
 
 /*#box-text{
     color: white;
     font-size: 100px;
 }*/
+
+.text_box {
+    /*background-color: orange;*/
+    /*filter: opacity(0.3);*/
+    /*opacity: 10%;*/
+    /*    color: white;
+    font-size: 20px;*/
+    padding: 10px;
+    border: 1px black;
+/*    margin: 50px;*/
+/*    margin-top: -300px;*/
+/*    width: 800px;*/
+    height: 545px;
+    overflow: auto;
+    position: relative;
+/*    left: 200px;*/
+/*    top: -247px;*/
+    background: rgba(205, 158, 125, .2);
+    font-size: 50px;
+}
