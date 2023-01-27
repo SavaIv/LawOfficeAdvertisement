@@ -41,11 +41,14 @@ body {
 }
 
 .button {
+    
     display: inline-block;
-    padding: 10px 50px;
+    padding: 4px 10px;
     margin: 2px;
     position: relative;
     color: #ecf0f1;
+    width: 230px;
+    height: 57px;
 }
 
 a:hover {
@@ -65,12 +68,15 @@ a:active {
     text-decoration: none;
 }
 
+
+
 /* BUTTON 16 */
 
 #button-16 {
     background-color: #cd9e7d;
     color: #422419;
     font-weight: bold;
+    text-align: left;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -109,7 +115,7 @@ a:active {
     overflow: auto;
     position: relative;
     left: 200px;
-    top: -45px;
+    top: -247px;
     background: rgba(205, 158, 125, .2);
     font-size: 50px;
 }
