@@ -130,5 +130,8 @@ a:active {
 /*    left: 200px;*/
 /*    top: -247px;*/
     background: rgba(205, 158, 125, .2);
-    font-size: 50px;
+    font-size: 17px;
+    text-align: justify;
 }
+
+
