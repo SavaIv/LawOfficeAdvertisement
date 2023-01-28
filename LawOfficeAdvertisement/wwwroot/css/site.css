@@ -40,6 +40,11 @@ body {
     margin-top: 0px; /* how far the text beside it should be */
 }
 
+.logobanner {
+    width: 220px;
+    /*height: 100px;*/
+}
+
 .button {
     
     display: inline-block;
