@@ -210,6 +210,40 @@ a:active {
     margin-bottom: 200px;
 }
 
+/* BUTTON 1 */
+
+#button-1 {
+    background-color: #cd9e7d;
+    color: #422419;
+    font-weight: bold;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    position: relative;
+    height: 100px;
+    width: 350px;
+    margin: 0px 5px 0px 5px;
+}
+
+    #button-1:hover {
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+
+.text_box_index {
+    padding: 20px;
+    border: 1px black;
+    height: 220px;
+    overflow: auto;
+    position: relative;
+    background: rgba(205, 158, 125, .2);
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+}
+
 #map {
     margin-bottom: 200px;
 }
