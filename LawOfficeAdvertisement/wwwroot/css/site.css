@@ -220,11 +220,10 @@ a:active {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     border: 1px solid black;
-    position: relative;
-    height: 100px;
-    width: 350px;
-    margin: 0px 5px 0px 5px;
-    margin-bottom: 150px;
+    height: 130px;
+    width: 250px;
+    margin: 0px 10px 0px 10px;
+    margin-bottom: 160px;
 }
 
     #button-1:hover {
@@ -236,11 +235,13 @@ a:active {
     padding: 20px;
     border: 1px black;
     height: 260px;
+    width: 660px;
     position: relative;
     background: rgba(205, 158, 125, .2);
     font-size: 16px;
     text-align: justify;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left: -140px;
 }
 
 #map {
