@@ -92,6 +92,7 @@ a:active {
 }
 
 .container {
+    padding: 15px;
     color: #cd9e7d;
     padding: 10px;
 
@@ -100,14 +101,14 @@ a:active {
 .container2 {
     background-color: #2b2b2b;
     margin-top: 10px;
-
+    font-size: 13px;
 }
 
 .footer-clean h3 {
     margin-top: 0px;
     margin-bottom: 12px;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .footer-clean ul {
@@ -115,7 +116,7 @@ a:active {
     list-style: none;
     line-height: 1.6;
     font-weight: initial;
-    font-size: 17px;
+    font-size: 13px;
     margin-bottom: 0;
 }
     .footer-clean ul a {
