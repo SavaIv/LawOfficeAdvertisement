@@ -87,13 +87,14 @@ a:active {
 }*/
 
 .footer-clean {
-    padding: 30px;
     background-color: black;
     color: black;
 }
 
 .container {
     color: #cd9e7d;
+    padding: 10px;
+
 }
 
 .container2 {
@@ -194,4 +195,8 @@ a:active {
 .picture {
     width: 220px;
     /*height: 100px;*/
+}
+
+#praktikaDiv {
+    margin-bottom: 200px;
 }
