@@ -94,8 +94,6 @@ a:active {
 .container {
     padding: 15px;
     color: #cd9e7d;
-    padding: 10px;
-
 }
 
 .container2 {
@@ -180,16 +178,26 @@ a:active {
     font-size: 20px;*/
     padding: 10px;
     border: 1px black;
-/*    margin: 50px;*/
-/*    margin-top: -300px;*/
-/*    width: 800px;*/
+    /*    margin: 50px;*/
+    /*    margin-top: -300px;*/
+    /*    width: 800px;*/
     height: 545px;
     overflow: auto;
     position: relative;
-/*    left: 200px;*/
-/*    top: -247px;*/
+    /*    left: 200px;*/
+    /*    top: -247px;*/
     background: rgba(205, 158, 125, .2);
     font-size: 17px;
+    text-align: justify;
+}
+
+.text_boxContacts {
+    padding: 10px;
+    border: 1px black;
+    height: 190px;
+    width: 400px;
+    background: rgba(205, 158, 125, .2);
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -199,5 +207,9 @@ a:active {
 }
 
 #praktikaDiv {
+    margin-bottom: 200px;
+}
+
+#map {
     margin-bottom: 200px;
 }
