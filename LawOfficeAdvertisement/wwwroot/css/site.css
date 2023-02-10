@@ -15,7 +15,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    padding-top: 150px;
+    padding-top: 190px;
     background-image: url("../img/BGBLACK.png");
     background-repeat: repeat;
     
@@ -25,16 +25,227 @@ body {
     z-index: 100;
     color: white;
 }
-
 .navbar {
     height: 100px;
+
 }
+.navbar-nav {
+    margin-left: 0px;  /* topbar number and email move*/
+}
+
 .logo {
-    width: 100px;
-    height: 100px;
-    margin-left: 20px; /* how far the icon is away from the page edge */
-    margin-right: 0px; /* how far the text beside it should be */
-    margin-top: 0px; /* if you want it vertically middle of the navbar. */
+   /* width: 100px;
+    height: 100px;*/
+    margin-left: 10px; /* how far the icon is away from the page edge */
+    margin-top: 0px; /* how far the text beside it should be */
 }
 
+.logobanner {
+    width: 220px;
+    /*height: 100px;*/
+}
 
+.button {
+    
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 2px;
+    position: relative;
+    color: #ecf0f1;
+    width: 230px;
+    height: 57px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/*.footer {
+    position: absolute;
+    background-color: #2b2b2b;
+    border-top-color: black;
+    line-height: 0px;
+}
+
+#af {*/
+    /*padding: 1px;*/
+    /*border-top-color: black;
+    background: black;
+}*/
+
+.footer-clean {
+    background-color: black;
+    color: black;
+}
+
+.container {
+    padding: 15px;
+    color: #cd9e7d;
+}
+
+.container2 {
+    background-color: #2b2b2b;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.footer-clean h3 {
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-clean ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-weight: initial;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+    .footer-clean ul a {
+        color: inherit;
+        text-decoration: none;
+        opacity: 0.8;
+    }
+        .footer-clean ul a:hover {
+            opacity: 1;
+        }
+
+
+/* BUTTON 16 */
+
+#button-16 {
+    background-color: #cd9e7d;
+    color: #422419;
+    font-weight: bold;
+    text-align: left;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+}
+
+    #button-16:hover {
+        border-radius: 15px;
+        border: 1px solid black;
+    }
+
+/*.text_box {*/
+    /*background-color: orange;*/
+    /*filter: opacity(0.3);*/
+    /*opacity: 10%;*/
+    /*    color: white;
+    font-size: 20px;*/
+    /*padding: 10px;
+    border: 1px black;
+    margin: 50px;
+    margin-top: -300px;
+    width: 800px;
+    height: 350px;
+    overflow: auto;
+    position: relative;
+    left: 200px;
+    top: -247px;
+    background: rgba(205, 158, 125, .2);
+    font-size: 50px;
+}*/
+
+/*#box-text{
+    color: white;
+    font-size: 100px;
+}*/
+
+.text_box {
+    /*background-color: orange;*/
+    /*filter: opacity(0.3);*/
+    /*opacity: 10%;*/
+    /*    color: white;
+    font-size: 20px;*/
+    padding: 10px;
+    border: 1px black;
+    /*    margin: 50px;*/
+    /*    margin-top: -300px;*/
+    /*    width: 800px;*/
+    height: 545px;
+    overflow: auto;
+    position: relative;
+    /*    left: 200px;*/
+    /*    top: -247px;*/
+    background: rgba(205, 158, 125, .2);
+    font-size: 17px;
+    text-align: justify;
+}
+
+.text_boxContacts {
+    padding: 35px;
+    border: 1px black;
+    height: 350px;
+    width: 340px;
+    background: rgba(205, 158, 125, .2);
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 200px;
+}
+
+#map {
+    margin-top: -13px;
+    margin-left: -14px;
+}
+
+.picture {
+    width: 220px;
+    /*height: 100px;*/
+}
+
+#praktikaDiv {
+    margin-bottom: 200px;
+}
+
+/* BUTTON 1 */
+
+#button-1 {
+    background-color: #cd9e7d;
+    color: #422419;
+    font-weight: bold;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    height: 130px;
+    width: 250px;
+    margin: 0px 10px 0px 10px;
+    margin-bottom: 160px;
+}
+
+    #button-1:hover {
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+
+.text_box_index {
+    padding: 20px;
+    border: 1px black;
+    height: 260px;
+    width: 660px;
+    position: relative;
+    background: rgba(205, 158, 125, .2);
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: -140px;
+}
